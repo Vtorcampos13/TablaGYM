@@ -14,7 +14,6 @@ h1, nav {
 
 .navegador a {
     float: center;
-    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -26,10 +25,14 @@ h1, nav {
     color: black;
 }
 
-table, th, td {
+table {
+    width: auto;
+    border-color: #333;
     border: 1px solid black;
-    border-collapse: collapse;
-    width: 30%;
+    border-style: ridge;
+    text-align: left;
+    margin: 40px auto;
+    color: rgb(11, 11, 11);
   }
 
 
@@ -37,6 +40,7 @@ table, th, td {
 img {
     width: 500px;
     height: 400px;
+    padding: 15px;
 }
 
 
@@ -45,4 +49,14 @@ div .acceso_rapido{
     background-color: #333;
 }
 
+td {
+    width: 25%;
+    border: 1px solid #333;
+    border-width: 1px;
+}
 
+th {
+    width: 25%;
+    border: 1px solid #333;
+    border-width: 1px;
+}
